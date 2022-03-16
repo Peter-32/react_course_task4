@@ -1,3 +1,20 @@
+### Startup commands:
+
+npm install --save redux react-redux
+
+Redux info:
+- action creator (the function that builds the message and data)
+- action (the message and data)
+- dispatcher (state.dispatch(action))
+- reducer (the state)
+- state (holds all reducers)
+
+React: use function components
+
+Combining react and reduct requires: Provider component and Connect component
+    - Connect passes the data as a prop to the component
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
