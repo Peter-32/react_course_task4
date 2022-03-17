@@ -3,13 +3,18 @@ import SongList from './SongList';
 import SongDetail from './SongDetail';
 import { selectSong } from '../messages';
 
+
 const App = () => {
-// console.log(selectSong)
-return (
-<div>
-    <SongList />
-    <SongDetail />
-</div>
-)}
+    return (
+        <div className="ui container grid">
+            <div className="ui row">
+                <div className="column eight wide">
+                    <SongList />
+                    <SongDetail />
+                </div>
+            </div>
+        </div>
+    );
+};
 
 export default App;
